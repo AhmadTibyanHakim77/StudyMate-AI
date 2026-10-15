@@ -1,4 +1,3 @@
-```markdown
 # StudyMate AI
 
 > An AI-powered learning companion for smarter, more organized, and personalized studying.
