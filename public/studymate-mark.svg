@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 112" fill="none">
+  <defs>
+    <linearGradient id="pageLeft" x1="20" y1="38" x2="64" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="pageRight" x1="64" y1="42" x2="108" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#CFFAFE"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="18" y1="62" x2="111" y2="98" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset=".55" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="6" y1="75" x2="122" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset=".55" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="39" y1="10" x2="90" y2="31" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <path d="M9 76c15-26 33-38 54-38s39 12 56 2c-8 20-22 30-43 34-22 4-39 12-52 29C13 96 8 87 9 76Z" stroke="url(#orbit)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M22 51c0-5 4-9 9-9h31v49L29 83c-4-1-7-5-7-9V51Z" fill="url(#cover)"/>
+  <path d="M106 51c0-5-4-9-9-9H66v49l33-8c4-1 7-5 7-9V51Z" fill="url(#cover)"/>
+  <path d="M30 37c0-4 3-7 7-7h27v55L39 78c-5-2-9-7-9-13V37Z" fill="url(#pageLeft)"/>
+  <path d="M98 37c0-4-3-7-7-7H64v55l25-7c5-2 9-7 9-13V37Z" fill="url(#pageRight)"/>
+  <path d="M38 42c10 1 18 5 24 10M38 53c9 1 17 4 24 9M39 64c8 1 15 3 22 7" stroke="#E0E7FF" stroke-width="3.5" stroke-linecap="round" opacity=".82"/>
+  <path d="m78 47 3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z" fill="#5B4BFA"/>
+  <path d="m70 68 1.7 4.2 4.3 1.8-4.3 1.7L70 80l-1.7-4.3L64 74l4.3-1.8L70 68Z" fill="#6366F1"/>
+  <path d="m64 8 29 13-29 14-29-14L64 8Z" fill="url(#cap)"/>
+  <path d="M43 24v9c11 9 31 9 42 0v-9L64 34 43 24Z" fill="#4338CA"/>
+  <path d="M91 22v16" stroke="#4F46E5" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="91" cy="41" r="4" fill="#4F46E5"/>
+</svg>
